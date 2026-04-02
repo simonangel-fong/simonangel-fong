@@ -20,6 +20,15 @@ I'm a **System Administrator** and **DevOps Engineer** passionate about cloud au
 
 ## 🚀 Recent Projects
 
+### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
+
+Explored AI agent integration for Kubernetes incident triage — from PoC to a functional end-to-end pipeline that automates log analysis and root cause summarization while preserving human-in-the-loop oversight.
+
+- **Phases**: n8n PoC → Kagent (CNCF Sandbox) → Custom Agent Pipeline (function calling + autonomous)
+- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
+- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
+- 📁 Repo: [KubeTriage](https://github.com/simonangel-fong/KubeTriage)
+
 ### ☸️ Automated Architecture Benchmark — EKS
 
 Implemented an automated benchmark architecture on **AWS EKS** with full infrastructure provisioning and pipeline automation.
