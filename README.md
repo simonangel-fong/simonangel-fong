@@ -1,6 +1,6 @@
 ### Hello world 👋
 
-I'm a **System Administrator** and **DevOps Engineer** passionate about cloud automation, infrastructure as code, and building resilient, scalable systems.
+I'm a **DevOps Engineer** passionate about cloud automation, infrastructure as code, and building resilient, scalable systems.
 
 ---
 
@@ -9,6 +9,7 @@ I'm a **System Administrator** and **DevOps Engineer** passionate about cloud au
 - ✅ Certified Kubernetes Administrator (CKA)
 - ✅ AWS Certified Solutions Architect – Associate (SAA)
 - ✅ Red Hat Certified System Administrator (RHCSA)
+- Certified Kubernetes Security Specialist (CKS) (On-going)
 
 ---
 
@@ -28,15 +29,6 @@ A GitOps project shows how to reduce production release risk through controls ac
 - 🌐 Live Demo: [gitops.arguswatcher.net](https://gitops.arguswatcher.net/)
 - 📁 Repo: [Project_GitOps_Risk_Control_Platform_Repo](https://github.com/simonangel-fong/Project_GitOps_Risk_Control_Platform_Repo)
 
-### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
-
-Explored AI agent integration for Kubernetes incident triage — from PoC to a functional end-to-end pipeline that automates log analysis and root cause summarization while preserving human-in-the-loop oversight.
-
-- **Phases**: `n8n` PoC → `Kagent` → Custom Agent Pipeline (function calling vs autonomous)
-- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
-- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
-- 📁 Repo: [Project-KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)
-
 ### ☸️ Automated Architecture Benchmark — EKS
 
 Implemented an automated benchmark architecture on **AWS EKS** with full infrastructure provisioning and pipeline automation.
@@ -50,6 +42,15 @@ Implemented the same benchmark architecture on **AWS ECS**, exploring container 
 
 - 🌐 Live Demo: [ecs-benchmark.arguswatcher.net](https://ecs-benchmark.arguswatcher.net/)
 - 📁 Repo: [Project-Automated-Architecture-Benchmark-ECS](https://github.com/simonangel-fong/Project-Automated-Architecture-Benchmark-ECS)
+
+### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
+
+Explored AI agent integration for Kubernetes incident triage — from PoC to a functional end-to-end pipeline that automates log analysis and root cause summarization while preserving human-in-the-loop oversight.
+
+- **Phases**: `n8n` PoC → `Kagent` → Custom Agent Pipeline (function calling vs autonomous)
+- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
+- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
+- 📁 Repo: [Project-KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)
 
 ### 🏗️ Hybrid Cloud Data Warehouse — Toronto Shared Bike Analytics
 
