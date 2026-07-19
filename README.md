@@ -96,13 +96,14 @@ AI agent pipeline that automates log analysis and root cause summarization for K
 
 - More K8s Demo
 
-| Demo Project                                                                      | Skills                                  | Description                                                                    |
-| --------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------ |
-| [Istio Sidecar Mode](https://github.com/simonangel-fong/istio-sidecar)            | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio sidecar mode on AKS.        |
-| [Istio Ambient Mode](https://github.com/simonangel-fong/istio-ambient)            | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio ambient mode on AKS.        |
-| [EKS ArgoCD Capability](https://github.com/simonangel-fong/argocd-eks-capability) | ArgoCD, EKS Capability                  | A side project that explores EKS ArgoCD Capability.                            |
-| [AKS ArgoCD Helm Install](https://github.com/simonangel-fong/argocd-aks-helm)     | ArgoCD, AKS, Helm                       | A side project that deploy ArgoCD on AKS via Helm.                             |
-| [ArgoCD Notification](https://github.com/simonangel-fong/argocd-notification)     | ArgoCD, Slack, GitHub Actions           | A side project that explores ArgoCD notification with Slack and GitHub Actions |
+| Demo Project                                                                           | Skills                                  | Description                                                                    |
+| -------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------ |
+| [Istio Sidecar Mode](https://github.com/simonangel-fong/istio-sidecar)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio sidecar mode on AKS.        |
+| [Istio Ambient Mode](https://github.com/simonangel-fong/istio-ambient)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio ambient mode on AKS.        |
+| [EKS ArgoCD Capability](https://github.com/simonangel-fong/argocd-eks-capability)      | ArgoCD, EKS Capability                  | A side project that explores EKS ArgoCD Capability.                            |
+| [AKS ArgoCD Helm Install](https://github.com/simonangel-fong/argocd-aks-helm)          | ArgoCD, AKS, Helm                       | A side project that deploy ArgoCD on AKS via Helm.                             |
+| [ArgoCD Notification](https://github.com/simonangel-fong/argocd-notification)          | ArgoCD, Slack, GitHub Actions           | A side project that explores ArgoCD notification with Slack and GitHub Actions |
+| [Jenkins CI Pipeline with ECR](https://github.com/simonangel-fong/argocd-notification) | Jenkins(in-cluster), Docker, AWS ECR    | A Jenkins project to build a CI pipeline pushing image to AWS ECR              |
 
 ---
 
