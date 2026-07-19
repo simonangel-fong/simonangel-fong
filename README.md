@@ -13,7 +13,7 @@ I'm a **DevOps & Kubernetes Consultant** specializing in cloud-native infrastruc
 
 ---
 
-## ☁️ Cloud Cases
+## ☁️ Cloud Projects
 
 ### 🔄 Automated Architecture Benchmark — EKS
 
@@ -39,7 +39,18 @@ Integrated an **on-prem PostgreSQL data warehouse** with an **AWS Serverless API
 
 ---
 
-## ☸️ Kubernetes Cases
+- More Demo
+
+| Demo Project                                                                                       | Skills                    | Description                                                                       |
+| -------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------- |
+| [Serverless Todo App (AWS)](https://github.com/simonangel-fong/serverless-todo-app-aws)            | Terraform, AWS Serverless | A Serverless Todo App implemented by Terraform with AWS API Gateway, Lambda, S3.  |
+| [VM-based GitOps with Ansible](https://github.com/simonangel-fong/ansible-gitops-vm)               | Ansible,Jenkins, AWS EC2  | Implement GitOps in VM-based environments by Ansible and Jenkins.                 |
+| [Multi-Environment Jenkins Pipeline](https://github.com/simonangel-fong/jenkins-multi-environment) | Jenkins, Terraform, AWS   | A CI/CD pipeline that provisions AWS infrastructure across multiple environments. |
+| [Docker Multi-Stage Build](https://github.com/simonangel-fong/docker-multi-stage-build)            | Docker                    | A project demonstrates the benefit of multi-stage Docker builds                   |
+
+---
+
+## ☸️ Kubernetes Projects
 
 ### 🏢 Multi-Tenant Cluster — EKS
 
@@ -47,6 +58,7 @@ Platform engineering project enabling multiple product teams to share a single E
 
 - **Stack**: `Terraform`, `ArgoCD`, `Karpenter`, `Istio`, `Kyverno`, `External Secrets Operator`
 - 🌐 [simonangel-fong.github.io/multi-tenant-cluster-eks](https://simonangel-fong.github.io/multi-tenant-cluster-eks/)
+- 📁 [Multi-Tenant Cluster Repo](https://github.com/simonangel-fong/multi-tenant-cluster-eks)
 
 ### 🌐 Multi-Cloud Cluster — AWS EKS + Azure AKS
 
@@ -54,6 +66,7 @@ Runs applications across AWS and Azure simultaneously using a unified GitOps pip
 
 - **Stack**: `Terraform`, `ArgoCD`, `Helm`, `Cloudflare`, `Grafana Cloud`
 - 🌐 [simonangel-fong.github.io/multi-cloud-cluster](https://simonangel-fong.github.io/multi-cloud-cluster/)
+- 📁 [Multi-Cloud Cluster Repo](https://github.com/simonangel-fong/multi-cloud-cluster)
 
 ### 🔄 GitOps Risk Control — Validate Early. Release Gradually. Detect Fast.
 
@@ -61,7 +74,7 @@ Reduces production release risk through controls across three lifecycle phases: 
 
 - **Stack**: `Argo Rollouts`, `ArgoCD`, `Kubernetes`, `Grafana`, `Slack`
 - 🌐 [gitops.arguswatcher.net](https://gitops.arguswatcher.net/)
-- 📁 [Project_GitOps_Risk_Control_Platform_Repo](https://github.com/simonangel-fong/Project_GitOps_Risk_Control_Platform_Repo)
+- 📁 [GitOps Risk Control Repo](https://github.com/simonangel-fong/Project_GitOps_Risk_Control_Platform_Repo)
 
 ### 📋 Kubernetes Deployment Playbook
 
@@ -69,6 +82,7 @@ Demonstrates and compares six mainstream deployment strategies (Rolling, Recreat
 
 - **Stack**: `AKS`, `Argo CD`, `Argo Rollouts`, `Istio`, `Kiali`
 - 🌐 [simonangel-fong.github.io/k8s-deploy](https://simonangel-fong.github.io/k8s-deploy/)
+- 📁 [Kubernetes Deployment Playbook Repo](https://github.com/simonangel-fong/k8s-deploy)
 
 ### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
 
@@ -76,7 +90,18 @@ AI agent pipeline that automates log analysis and root cause summarization for K
 
 - **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
 - **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
-- 📁 [Project-KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)
+- 📁 [KubeTriage Repo](https://github.com/simonangel-fong/Project-KubeTriage)
+
+---
+
+- More Demo
+
+| Demo Project                                                                      | Skills                                  | Description                                                             |
+| --------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------- |
+| [Istio Sidecar Mode](https://github.com/simonangel-fong/istio-sidecar)            | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio sidecar mode on AKS. |
+| [Istio Ambient Mode](https://github.com/simonangel-fong/istio-ambient)            | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio ambient mode on AKS. |
+| [EKS ArgoCD Capability](https://github.com/simonangel-fong/argocd-eks-capability) | ArgoCD, EKS Capability                  | A side project that explores EKS ArgoCD Capability.                     |
+| [AKS ArgoCD Helm Install](https://github.com/simonangel-fong/argocd-aks-helm)     | ArgoCD, AKS, Helm                       | A side project that deploy ArgoCD on AKS via Helm.                      |
 
 ---
 
