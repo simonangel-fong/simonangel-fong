@@ -41,12 +41,13 @@ Integrated an **on-prem PostgreSQL data warehouse** with an **AWS Serverless API
 
 - More Cloud Demo
 
-| Demo Project                                                                                       | Skills                    | Description                                                                       |
-| -------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------- |
-| [Serverless Todo App (AWS)](https://github.com/simonangel-fong/serverless-todo-app-aws)            | Terraform, AWS Serverless | A Serverless Todo App implemented by Terraform with AWS API Gateway, Lambda, S3.  |
-| [VM-based GitOps with Ansible](https://github.com/simonangel-fong/ansible-gitops-vm)               | Ansible,Jenkins, AWS EC2  | Implement GitOps in VM-based environments by Ansible and Jenkins.                 |
-| [Multi-Environment Jenkins Pipeline](https://github.com/simonangel-fong/jenkins-multi-environment) | Jenkins, Terraform, AWS   | A CI/CD pipeline that provisions AWS infrastructure across multiple environments. |
-| [Docker Multi-Stage Build](https://github.com/simonangel-fong/docker-multi-stage-build)            | Docker                    | A project demonstrates the benefit of multi-stage Docker builds                   |
+| Demo Project                                                                                       | Skills                     | Description                                                                                       |
+| -------------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
+| [Serverless Todo App (AWS)](https://github.com/simonangel-fong/serverless-todo-app-aws)            | Terraform, AWS Serverless  | A Serverless Todo App implemented by Terraform with AWS API Gateway, Lambda, S3.                  |
+| [VM-based GitOps with Ansible](https://github.com/simonangel-fong/ansible-gitops-vm)               | Ansible,Jenkins, AWS EC2   | Implement GitOps in VM-based environments by Ansible and Jenkins.                                 |
+| [Multi-Environment Jenkins Pipeline](https://github.com/simonangel-fong/jenkins-multi-environment) | Jenkins, Terraform, AWS    | A CI/CD pipeline that provisions AWS infrastructure across multiple environments.                 |
+| [Docker Multi-Stage Build](https://github.com/simonangel-fong/docker-multi-stage-build)            | Docker                     | A project demonstrates the benefit of multi-stage Docker builds                                   |
+| [Ollama CPU vs GPU](https://github.com/simonangel-fong/llm-ollama-ec2.git)                         | Ollama, GPU EC2, Terraform | A cloud-native project that deploys compares qwen3:8b inference using CPU and NVIDIA GPU compute. |
 
 ---
 
