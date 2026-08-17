@@ -13,6 +13,27 @@ I'm a **DevOps & Kubernetes Consultant** specializing in cloud-native infrastruc
 
 ---
 
+## 🤖 ML/AI Projects
+
+### 🔍 License Plate Detection — MLOps on SageMaker
+
+End-to-end MLOps pipeline that trains and deploys a **YOLO object-detection model** for vehicle license plate recognition, with automated quality gating and serverless inference.
+
+- **Stack**: `AWS SageMaker`, `MLflow`, `Lambda`, `CloudFront`, `S3`, `Terraform`, `GitHub Actions`
+- **Key finding**: GPU training is ~13x faster and ~13x cheaper in total cost despite higher hourly rates
+- 🌐 [yolo.arguswatcher.net](https://yolo.arguswatcher.net/)
+- 📁 [sagemaker-yolo](https://github.com/simonangel-fong/sagemaker-yolo)
+
+### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
+
+AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight.
+
+- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
+- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
+- 📁 [KubeTriage Repo](https://github.com/simonangel-fong/Project-KubeTriage)
+
+---
+
 ## ☁️ Cloud Projects
 
 ### 🔄 Automated Architecture Benchmark — EKS
@@ -84,14 +105,6 @@ Demonstrates and compares six mainstream deployment strategies (Rolling, Recreat
 - **Stack**: `AKS`, `Argo CD`, `Argo Rollouts`, `Istio`, `Kiali`
 - 🌐 [simonangel-fong.github.io/k8s-deploy](https://simonangel-fong.github.io/k8s-deploy/)
 - 📁 [Kubernetes Deployment Playbook Repo](https://github.com/simonangel-fong/k8s-deploy)
-
-### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
-
-AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight.
-
-- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
-- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
-- 📁 [KubeTriage Repo](https://github.com/simonangel-fong/Project-KubeTriage)
 
 ---
 
