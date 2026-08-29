@@ -1,6 +1,6 @@
 ### Hello world 👋
 
-I'm a **DevOps & Kubernetes Consultant** specializing in cloud-native infrastructure, platform engineering, and building resilient, scalable systems.
+I'm a **DevOps, cloud, platform & Kubernetes Consultant** specializing in cloud-native infrastructure, platform engineering, and building resilient, scalable systems.
 
 ---
 
@@ -14,6 +14,15 @@ I'm a **DevOps & Kubernetes Consultant** specializing in cloud-native infrastruc
 ---
 
 ## 🤖 ML/AI Projects
+
+### ⚙️ Kubeflow YOLO — End-to-End MLOps Platform on EKS
+
+Full MLOps platform bridging ML experimentation and production deployment, integrating three engineering domains: ML engineering, platform infrastructure, and DevOps automation.
+
+- **Stack**: `Kubeflow`, `KServe`, `MLflow`, `Katib`, `DVC`, `YOLO`, `AWS EKS`, `Karpenter`, `Terraform`, `ArgoCD`, `GitHub Actions`
+- **Architecture**: Three-perspective framework — ML engineers own experimentation, platform engineers provision GPU infrastructure, DevOps automates everything via IaC and GitOps
+- 🌐 [kubeflow-yolo.arguswatcher.net](https://kubeflow-yolo.arguswatcher.net)
+- 📁 [kubeflow-yolo](https://github.com/simonangel-fong/kubeflow-yolo)
 
 ### 🔍 License Plate Detection — MLOps on SageMaker
 
