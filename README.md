@@ -1,6 +1,6 @@
 ### Hello world 👋
 
-I'm a **DevOps, cloud, platform & Kubernetes Consultant** specializing in cloud-native infrastructure, platform engineering, and building resilient, scalable systems.
+I'm a **DevOps, platform, cloud & Kubernetes Consultant** specializing in cloud-native infrastructure, platform engineering, and building resilient, scalable systems.
 
 ---
 
@@ -15,7 +15,16 @@ I'm a **DevOps, cloud, platform & Kubernetes Consultant** specializing in cloud-
 
 ## 🤖 ML/AI Projects
 
-### ⚙️ Kubeflow YOLO — End-to-End MLOps Platform on EKS
+### 🔎 Kubernetes AIOps — Automated Incident Diagnosis with Amazon Bedrock
+
+Event-driven AIOps pipeline that automates Kubernetes incident diagnosis using an AI agent, while keeping human operators in control of all remediation decisions.
+
+- **Stack**: `Amazon Bedrock AgentCore`, `AWS EKS`, `CloudWatch`, `EventBridge`, `Lambda`, `Terraform`, `GitHub Actions`
+- **Architecture**: Observe → Engage → Act — agent diagnoses root cause with read-only RBAC access, delivers findings to Slack for operator review
+- 🌐 [aiops.arguswatcher.net](https://aiops.arguswatcher.net/)
+- 📁 [aiops-agentcore](https://github.com/simonangel-fong/aiops-agentcore)
+
+### ⚙️ GPU-Enabled MLOps Platform — End-to-End MLOps Platform on EKS
 
 Full MLOps platform bridging ML experimentation and production deployment, integrating three engineering domains: ML engineering, platform infrastructure, and DevOps automation.
 
@@ -24,7 +33,7 @@ Full MLOps platform bridging ML experimentation and production deployment, integ
 - 🌐 [kubeflow-yolo.arguswatcher.net](https://kubeflow-yolo.arguswatcher.net)
 - 📁 [kubeflow-yolo](https://github.com/simonangel-fong/kubeflow-yolo)
 
-### 🔍 License Plate Detection — MLOps on SageMaker
+### 🔍 License Plate Detection — MLOps with SageMaker
 
 End-to-end MLOps pipeline that trains and deploys a **YOLO object-detection model** for vehicle license plate recognition, with automated quality gating and serverless inference.
 
@@ -33,13 +42,12 @@ End-to-end MLOps pipeline that trains and deploys a **YOLO object-detection mode
 - 🌐 [yolo.arguswatcher.net](https://yolo.arguswatcher.net/)
 - 📁 [sagemaker-yolo](https://github.com/simonangel-fong/sagemaker-yolo)
 
-### 🤖 KubeTriage — AI-Assisted Kubernetes Incident Triage
+- More ML/AI Demo
 
-AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight.
-
-- **Stack**: `Grafana Alertmanager`, `FastAPI`, `Anthropic API`, `ArgoCD`, `Kagent`
-- **Key finding**: Agent autonomy and operational risk are directly governed by RBAC scope and tool permissions
-- 📁 [KubeTriage Repo](https://github.com/simonangel-fong/Project-KubeTriage)
+| Demo Project                                                                                   | Skills                             | Description                                                                                                                            |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)                            | Argo CD, n8n, Kagent, Alertmanager | AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight. |
+| [Toronto Shared Bike MLOps](https://github.com/simonangel-fong/Project-Toronto-Shared-Bike-ML) | Sagemaker, Terraform               | A project demonstrates an end-to-end MLOps workflow by training, deploying, and serving a bike-demand forecasting model.               |
 
 ---
 
@@ -91,14 +99,6 @@ Platform engineering project enabling multiple product teams to share a single E
 - 🌐 [simonangel-fong.github.io/multi-tenant-cluster-eks](https://simonangel-fong.github.io/multi-tenant-cluster-eks/)
 - 📁 [Multi-Tenant Cluster Repo](https://github.com/simonangel-fong/multi-tenant-cluster-eks)
 
-### 🌐 Multi-Cloud Cluster — AWS EKS + Azure AKS
-
-Runs applications across AWS and Azure simultaneously using a unified GitOps pipeline, with intelligent traffic routing and centralized observability.
-
-- **Stack**: `Terraform`, `ArgoCD`, `Helm`, `Cloudflare`, `Grafana Cloud`
-- 🌐 [simonangel-fong.github.io/multi-cloud-cluster](https://simonangel-fong.github.io/multi-cloud-cluster/)
-- 📁 [Multi-Cloud Cluster Repo](https://github.com/simonangel-fong/multi-cloud-cluster)
-
 ### 🔄 GitOps Risk Control — Validate Early. Release Gradually. Detect Fast.
 
 Reduces production release risk through controls across three lifecycle phases: pre-release validation, gradual rollout, and post-release monitoring.
@@ -106,6 +106,14 @@ Reduces production release risk through controls across three lifecycle phases: 
 - **Stack**: `Argo Rollouts`, `ArgoCD`, `Kubernetes`, `Grafana`, `Slack`
 - 🌐 [gitops.arguswatcher.net](https://gitops.arguswatcher.net/)
 - 📁 [GitOps Risk Control Repo](https://github.com/simonangel-fong/Project_GitOps_Risk_Control_Platform_Repo)
+
+### 🌐 Multi-Cloud Cluster — AWS EKS + Azure AKS
+
+Runs applications across AWS and Azure simultaneously using a unified GitOps pipeline, with intelligent traffic routing and centralized observability.
+
+- **Stack**: `Terraform`, `ArgoCD`, `Helm`, `Cloudflare`, `Grafana Cloud`
+- 🌐 [simonangel-fong.github.io/multi-cloud-cluster](https://simonangel-fong.github.io/multi-cloud-cluster/)
+- 📁 [Multi-Cloud Cluster Repo](https://github.com/simonangel-fong/multi-cloud-cluster)
 
 ### 📋 Kubernetes Deployment Playbook
 
