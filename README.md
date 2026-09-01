@@ -42,12 +42,15 @@ End-to-end MLOps pipeline that trains and deploys a **YOLO object-detection mode
 - 🌐 [yolo.arguswatcher.net](https://yolo.arguswatcher.net/)
 - 📁 [sagemaker-yolo](https://github.com/simonangel-fong/sagemaker-yolo)
 
+---
+
 - More ML/AI Demo
 
 | Demo Project                                                                                   | Skills                             | Description                                                                                                                            |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)                            | Argo CD, n8n, Kagent, Alertmanager | AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight. |
 | [Toronto Shared Bike MLOps](https://github.com/simonangel-fong/Project-Toronto-Shared-Bike-ML) | Sagemaker, Terraform               | A project demonstrates an end-to-end MLOps workflow by training, deploying, and serving a bike-demand forecasting model.               |
+| [KubeTriage](https://github.com/simonangel-fong/Project-KubeTriage)                            | Argo CD, n8n, Kagent, Alertmanager | AI agent pipeline that automates log analysis and root cause summarization for Kubernetes incidents, with human-in-the-loop oversight. |
+| [KServe Inference Service](https://github.com/simonangel-fong/llm-kserve-eks.git)              | KServe, GPU Node, ArgoCD, EKS      | An inference service serving the Qwen2.5 model on an NVIDIA GPU, exposed through KServe and Open WebUI.                                |
 
 ---
 
@@ -81,11 +84,11 @@ Integrated an **on-prem PostgreSQL data warehouse** with an **AWS Serverless API
 
 | Demo Project                                                                                       | Skills                     | Description                                                                                       |
 | -------------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
-| [Serverless Todo App (AWS)](https://github.com/simonangel-fong/serverless-todo-app-aws)            | Terraform, AWS Serverless  | A Serverless Todo App implemented by Terraform with AWS API Gateway, Lambda, S3.                  |
+| [Ollama CPU vs GPU](https://github.com/simonangel-fong/llm-ollama-ec2.git)                         | Ollama, GPU EC2, Terraform | A cloud-native project that deploys compares qwen3:8b inference using CPU and NVIDIA GPU compute. |
 | [VM-based GitOps with Ansible](https://github.com/simonangel-fong/ansible-gitops-vm)               | Ansible,Jenkins, AWS EC2   | Implement GitOps in VM-based environments by Ansible and Jenkins.                                 |
 | [Multi-Environment Jenkins Pipeline](https://github.com/simonangel-fong/jenkins-multi-environment) | Jenkins, Terraform, AWS    | A CI/CD pipeline that provisions AWS infrastructure across multiple environments.                 |
 | [Docker Multi-Stage Build](https://github.com/simonangel-fong/docker-multi-stage-build)            | Docker                     | A project demonstrates the benefit of multi-stage Docker builds                                   |
-| [Ollama CPU vs GPU](https://github.com/simonangel-fong/llm-ollama-ec2.git)                         | Ollama, GPU EC2, Terraform | A cloud-native project that deploys compares qwen3:8b inference using CPU and NVIDIA GPU compute. |
+| [Serverless Todo App (AWS)](https://github.com/simonangel-fong/serverless-todo-app-aws)            | Terraform, AWS Serverless  | A Serverless Todo App implemented by Terraform with AWS API Gateway, Lambda, S3.                  |
 
 ---
 
@@ -127,15 +130,14 @@ Demonstrates and compares six mainstream deployment strategies (Rolling, Recreat
 
 - More K8s Demo
 
-| Demo Project                                                                           | Skills                                  | Description                                                                                             |
-| -------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [Istio Sidecar Mode](https://github.com/simonangel-fong/istio-sidecar)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio sidecar mode on AKS.                                 |
-| [Istio Ambient Mode](https://github.com/simonangel-fong/istio-ambient)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio ambient mode on AKS.                                 |
-| [EKS ArgoCD Capability](https://github.com/simonangel-fong/argocd-eks-capability)      | ArgoCD, EKS Capability                  | A side project that explores EKS ArgoCD Capability.                                                     |
-| [AKS ArgoCD Helm Install](https://github.com/simonangel-fong/argocd-aks-helm)          | ArgoCD, AKS, Helm                       | A side project that deploy ArgoCD on AKS via Helm.                                                      |
-| [ArgoCD Notification](https://github.com/simonangel-fong/argocd-notification)          | ArgoCD, Slack, GitHub Actions           | A side project that explores ArgoCD notification with Slack and GitHub Actions                          |
-| [Jenkins CI Pipeline with ECR](https://github.com/simonangel-fong/argocd-notification) | Jenkins(in-cluster), Docker, AWS ECR    | A Jenkins project to build a CI pipeline pushing image to AWS ECR                                       |
-| [KServe Inference Service](https://github.com/simonangel-fong/llm-kserve-eks.git)      | KServe, GPU Node, ArgoCD, EKS           | An inference service serving the Qwen2.5 model on an NVIDIA GPU, exposed through KServe and Open WebUI. |
+| Demo Project                                                                           | Skills                                  | Description                                                                    |
+| -------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------ |
+| [Istio Sidecar Mode](https://github.com/simonangel-fong/istio-sidecar)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio sidecar mode on AKS.        |
+| [Istio Ambient Mode](https://github.com/simonangel-fong/istio-ambient)                 | istio, cert-manager, ab-testing, canary | A side project that explores key features of Istio ambient mode on AKS.        |
+| [EKS ArgoCD Capability](https://github.com/simonangel-fong/argocd-eks-capability)      | ArgoCD, EKS Capability                  | A side project that explores EKS ArgoCD Capability.                            |
+| [AKS ArgoCD Helm Install](https://github.com/simonangel-fong/argocd-aks-helm)          | ArgoCD, AKS, Helm                       | A side project that deploy ArgoCD on AKS via Helm.                             |
+| [ArgoCD Notification](https://github.com/simonangel-fong/argocd-notification)          | ArgoCD, Slack, GitHub Actions           | A side project that explores ArgoCD notification with Slack and GitHub Actions |
+| [Jenkins CI Pipeline with ECR](https://github.com/simonangel-fong/argocd-notification) | Jenkins(in-cluster), Docker, AWS ECR    | A Jenkins project to build a CI pipeline pushing image to AWS ECR              |
 
 ---
 
