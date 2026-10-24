@@ -10,8 +10,8 @@ This profile is a catalog of independent reference implementations inspired by r
 
 ## 🏅 Certifications
 
-- ✅ Certified Kubernetes Administrator (CKA)
 - ✅ Certified Kubernetes Security Specialist (CKS)
+- ✅ Certified Kubernetes Administrator (CKA)
 - ✅ AWS Certified Solutions Architect – Associate (SAA)
 - ✅ Red Hat Certified System Administrator (RHCSA)
 
