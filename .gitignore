@@ -1,0 +1,11 @@
+# Agent/tooling artifacts
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+todo.md

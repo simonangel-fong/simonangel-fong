@@ -11,9 +11,9 @@ This profile is a catalog of independent reference implementations inspired by r
 ## 🏅 Certifications
 
 - ✅ Certified Kubernetes Administrator (CKA)
+- ✅ Certified Kubernetes Security Specialist (CKS)
 - ✅ AWS Certified Solutions Architect – Associate (SAA)
 - ✅ Red Hat Certified System Administrator (RHCSA)
-- Certified Kubernetes Security Specialist (CKS) — In progress
 
 ---
 
@@ -29,6 +29,18 @@ This profile is a catalog of independent reference implementations inspired by r
 ---
 
 ## Featured Implementations
+
+### 🛡️ Kubernetes Security — React2Shell Breach on EKS
+
+**Challenge:** AI accelerates application delivery, but a single application flaw combined with misconfiguration can escalate into a breach spanning container, cluster, and cloud resources. How can teams keep delivery speed while containing breaches across every layer?
+
+**Implementation:** Traced a `React2Shell` (CVE-2025-55182) exploit in a Next.js application on `EKS` across four layers — code, container, cluster, and cloud — from four perspectives: attacker, platform administrator, security specialist, and DevSecOps engineer. Covered exploitation, incident investigation and containment, layered hardening, and shift-left security in delivery.
+
+**Evidence:** The attack chain reaches container secrets, Kubernetes resources, an internal API, and a cloud secret through an overly permissive IRSA role; replaying it after each hardening step — least-privilege IAM, restricted RBAC, NetworkPolicies, pod security, a patched non-root distroless image — shows exactly where access is blocked.
+
+`AWS EKS` `IRSA` `Kubernetes RBAC` `NetworkPolicy` `Pod Security` `CloudTrail` `GuardDuty` `Trivy` `Argo CD` `Terraform` `GitHub Actions`
+
+[Live case study](https://react2shell-eks.arguswatcher.net/) · [Source code](https://github.com/simonangel-fong/react2shell-eks)
 
 ### 🏢 Multi-Tenant Kubernetes Platform — EKS
 
